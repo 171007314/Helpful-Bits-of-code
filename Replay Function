@@ -1,0 +1,10 @@
+def playAgain():
+    again = raw_input("Would you like to play again? ")
+    if again == 'yes':
+        print "Ok"
+        #Main function here
+    if again == 'no':
+        print "This machine hates you"
+        quit()
+    playAgain()
+playAgain()
