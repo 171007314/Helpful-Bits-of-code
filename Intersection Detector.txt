@@ -1,0 +1,5 @@
+intersection = [el for el in listname1 if el in listname2]
+    if intersection == []:
+        #This code used if no intersection
+    elif intersection != []:
+        #This code is used if an intersection is present
