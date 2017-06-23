@@ -1,0 +1,7 @@
+dict = {"a" : 1,"b" : 2}
+temp = []
+dictlist = []
+for key, value in dict.iteritems():
+    temp = key
+    dictlist.append(temp)
+print "".join(dictlist)
